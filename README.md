@@ -57,13 +57,13 @@ x에 2가 들어간다고 생각하고, E부터 시작해보겠다.<br/>
 1. 가장 먼저 E를 E에 대해서 미분하면 `dE/dE = 1`이다.
 
 2. 그 다음 C와 D에 대해 미분한다.
-  - `dE/dC = (dE/dE)(dE/dC) = 1×1 = 1`
-  - `dE/dD = (dE/dE)(dE/dD) = 1×1 = 1`
+  - `dE/dC = (dE/dE)(dE/dC) = 1*1 = 1`
+  - `dE/dD = (dE/dE)(dE/dD) = 1*1 = 1`
 
 3. 이어서 C의 이전 노드 A와 B에 대해 미분한다.
   - `C = A * B` 이므로 `dC/dA = B = 2, dC/dB = A = 2`
-  - `dE/dA = (dE/dC)(dC/dA) = 1×2 = 2`
-  - `dE/dB = (dE/dC)(dC/dB) = 1×2 = 2`
+  - `dE/dA = (dE/dC)(dC/dA) = 1*2 = 2`
+  - `dE/dB = (dE/dC)(dC/dB) = 1*2 = 2`
 
 4. 모든 미분을 다 완료했으므로 ...
   - `(dE/dA) + (dE/dB) + (dE/dD) = 2 + 2 + 1 = 5`이다.
